@@ -1,0 +1,11 @@
+h1{
+    font-family: arial black;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 10pt;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(192,0,0);
+}

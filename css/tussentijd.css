@@ -1,0 +1,28 @@
+table#opdr1{
+    margin: 5px auto;
+}
+
+td.slot{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 36pt;
+}
+font-size: 36pt;
+
+button#opdr1{
+    padding: 5px;
+    font-family: arial;
+    width: 100px;
+    text-transform: uppercase;
+}
+
+table#opdr1{
+    margin: 5px auto;
+}
+
+td.square{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
