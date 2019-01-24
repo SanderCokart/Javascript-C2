@@ -14,7 +14,6 @@ function moveSquare(){
     if (key == 40) {
         document.getElementById(currentSquare).style.backgroundColor = "white";
         currentSquare += 5;
-        document.getElementById(currentSquare).style.backgroundColor = "black";
     }
 
     else if (key == 39) {
