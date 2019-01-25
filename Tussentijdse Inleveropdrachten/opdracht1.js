@@ -5,12 +5,20 @@ function place(td){
     var slot = document.getElementById(td.id);
 
     if(placeTurn == 0){
-        slot = td.innerText = "X";
-        placeTurn++;
+        if (slot.innerText == "") {
+            slot = td.innerText = "X";
+            placeTurn++;
+        } else {
+            alert("THIS SPOT IS TAKEN!");
+        }
     }
     else {
-        slot = td.innerText = "O";
-        placeTurn--;
+        if (slot.innerText == "") {
+            slot = td.innerText = "O";
+            placeTurn--;
+        } else {
+            alert("THIS SPOT IS TAKEN!");
+        }
     }
 }
 
