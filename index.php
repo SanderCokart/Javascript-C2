@@ -37,10 +37,8 @@
         <a href="Tussentijdse Inleveropdrachten/opdracht1.php"><h1>Tic, Tac, Toe</h1></a>
         <a href="Tussentijdse Inleveropdrachten/opdracht2V2.php"><h1>Move A Square</h1></a>
         <hr><h1>Studieblok 5</h1>
-        <a href="Studieblok 5/opdracht1.php"><h1>Opdracht 1</h1></a>
-        <a href="Studieblok 5/opdracht2.php"><h1>Opdracht 2</h1></a>
+        <a href="Studieblok 5/opdracht1.js"><h1>Opdracht 1</h1></a>
         <a href="Studieblok 5/opdracht3.php"><h1>Opdracht 3</h1></a>
-
-
+        <hr><h1>Studieblok 5</h1>
     </body>
 </html>
