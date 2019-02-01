@@ -6,8 +6,5 @@
         <title>Opdracht 1</title>
     </head>
     <body>
-        <script>
-            write();
-        </script>
     </body>
 </html>

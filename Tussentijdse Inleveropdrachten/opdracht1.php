@@ -4,6 +4,13 @@
         <meta charset="utf-8">
         <link rel="stylesheet" href="../css/tussentijd.css">
         <title>opdracht1</title>
+
+        <style media="screen">
+            td{
+                font-family: arial;
+            }
+        </style>
+
     </head>
     <body>
         <table border="1" id="opdr1">
