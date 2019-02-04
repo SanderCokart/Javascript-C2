@@ -45,7 +45,7 @@
         <div></div>
         <div></div>
 
-    <script src="jquery-3.3.1.js"></script>
+    <script src="../jquery-3.3.1.js"></script>
     <script src="opdracht4.js"></script>
     </body>
 </html>

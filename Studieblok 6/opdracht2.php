@@ -21,7 +21,7 @@
     <button type="button" id="button-blue">A</button>
     <button type="button" id="button-black" hidden>A</button>
 
-    <script src="jquery-3.3.1.js"></script>
+    <script src="../jquery-3.3.1.js"></script>
     <script src="opdracht2.js"></script>
     </body>
 </html>

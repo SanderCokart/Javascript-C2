@@ -16,7 +16,7 @@
         <button id="c" type="button">C</button>
         <button id="d-blue" type="button">D</button>
         <button id="d-black" type="button" hidden>D</button>
-    <script src="jquery-3.3.1.js"></script>
+    <script src="../jquery-3.3.1.js"></script>
     <script src="opdracht1.js"></script>
     </body>
 </html>
