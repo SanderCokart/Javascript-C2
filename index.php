@@ -71,6 +71,7 @@
         <a href="Studieblok 6/opdracht4.php"><h1>Opdracht 4</h1></a>
         <h1>Studieblok 7</h1>
         <a href="Studieblok 7/opdracht1.php"><h1>Opdracht 1</h1></a>
+        <a href="Studieblok 7/opdracht2.php"><h1>Opdracht 2</h1></a>
         </div>
     </body>
 </html>
