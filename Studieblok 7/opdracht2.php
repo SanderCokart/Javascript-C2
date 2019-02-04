@@ -20,8 +20,8 @@
         <title></title>
     </head>
     <body>
-        <div></div>
         <button type="button">BUTTON</button>
+        <div></div>
     </body>
     <script src="../jquery-3.3.1.js"></script>
     <script src="opdracht2.js"></script>
