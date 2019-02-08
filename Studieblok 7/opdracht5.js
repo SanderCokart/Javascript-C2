@@ -5,12 +5,14 @@ var storedClick;
 $(document).ready(function() {
 
     $(".row>div").click(function() {
-        // alert(this.className);
         var firstClick = this.className;
-
         if (firstClick == storedClick) {
             score++;
-            console.log(score);
+            if (score == 8) {
+                alert('you got '+score+' points!');
+                location.reload();
+            }
+            $(".row>div").removeClass(this.className);
         } else {
             storedClick = firstClick;
         }
