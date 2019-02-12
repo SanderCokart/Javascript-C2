@@ -1,3 +1,4 @@
+//this is a function that writes out objects
 function write(){
 var huis = {inhoud:'meubels',oppervalkte:'355m²',plaats:'Emmen',soortwoning:'rijtjeshuis'};
 document.write(huis.inhoud + '<br>');

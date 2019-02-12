@@ -12,7 +12,7 @@
             for ($rows=0; $rows < 5; $rows++) {
                 echo "<tr>";
                 for ($columns=0; $columns < 5; $columns++) {
-                    echo "<td id=\"$x\">$x</td>";
+                    echo "<td id=\"$x\"></td>";
                     $x++;
                 }
                 echo "<tr>";
