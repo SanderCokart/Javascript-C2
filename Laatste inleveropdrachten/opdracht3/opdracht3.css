@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+    box-sizing: border-box;
+}
+
+.box{
+    margin: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 10vh 20vh 20vh 20vh;
+    grid-row-gap: 1rem;
+}
+
+p#name{
+    padding: .5rem;
+    font-size: 3.5vw;
+    font-weight: bold;
+}
+
+#left-box>p, #right-box>p{
+    font-size: 3vw;
+}
+
+#name-field{
+    border-radius: 10px;
+    margin: .25rem 1rem;
+    border: black solid 3px;
+    text-align: center;
+}
+
+#add-name{
+    font-size: 1em;
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: grey;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+#left-box{
+    grid-column: 1;
+    grid-row: 2/5;
+    outline: solid black 4px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+}
+#right-box{
+    grid-column: 3;
+    grid-row: 2/5;
+    outline: solid black 4px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+}
+#move-right{
+    grid-column: 2;
+    grid-row: 2;
+    text-align: center;
+    background-color: grey;
+    bottom: 0;
+    top: 0;
+    font-size: 2em;
+    margin: .3rem 3rem;
+}
+#move-left{
+    grid-column: 2;
+    grid-row: 3;
+    text-align: center;
+    background-color: grey;
+    bottom: 0;
+    top: 0;
+    font-size: 2em;
+    margin: .3rem 3rem;
+}
