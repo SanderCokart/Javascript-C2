@@ -1,7 +1,7 @@
 var sentence = "applicatie ontwikkelaar";
 
 function getLength(){
-    return (sentence.length+"<br>");//spits out the length of the sentence variable
+    return sentence.length+"<br>";//spits out the length of the sentence variable
 }
 
 function getOntwikkelaar(){
@@ -24,7 +24,7 @@ function getSlice(){
     var search = "wik";
     var startPos = sentence.indexOf(search);
 
-    return sentence.substr(startPos, search.length)+"<br>";//spits out the word 'wik' using the splice method
+    return sentence.slice(startPos)+"<br>";//spits out the word 'wik' using the splice method
 }
 
 function replaceOntwikkelaar(){

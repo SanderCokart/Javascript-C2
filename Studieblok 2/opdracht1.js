@@ -1,8 +1,7 @@
 //this is a function that writes out objects
-function write(){
-var huis = {inhoud:'meubels',oppervalkte:'355m²',plaats:'Emmen',soortwoning:'rijtjeshuis'};
-document.write(huis.inhoud + '<br>');
-document.write(huis.oppervalkte + '<br>');
-document.write(huis.plaats + '<br>');
-document.write(huis.soortwoning + '<br>');
-}
+var house = {inhoud:'furniture',oppervalkte:'355m²',plaats:'New York',soortwoning:'Flat'};
+
+document.write(house.inhoud + '<br>');
+document.write(house.oppervalkte + '<br>');
+document.write(house.plaats + '<br>');
+document.write(house.soortwoning + '<br>');
