@@ -1,5 +1,5 @@
 <?php
- if (isset($_POST['submit'])) {
+if (isset($_POST['submit'])) {
     $birthday = $_POST['birthday'];
     $name = $_POST['name'];
     $postcode = $_POST['postcode'];
@@ -8,13 +8,17 @@
     $nationality = $_POST['nationality'];
     $profession = $_POST['profession'];
     $comment = $_POST['comments'];
+} else {
+    echo "error";
+}
+
+    if (isset($birthday) && isset($name) &&  isset($postcode) && isset($address) && isset($city) && isset($nationality) && isset($profession) && isset($comment)) {
+        echo "Your name is " . $name . ". You were born on " . $birthday . " which means you must be " . calculateDoB($birthday) . " years old, I also see you live in " . $city . " on " . $address . " and the postcode is " . $postcode . " and that means you nationality is " . $nationality . " and finally I can see you are a " . $profession . ", well how wonderfull! And your message reads as follows: <br><br>" . $comment;
+    } else {
+        echo "invalid entry!";
+    }
 
 
-    echo "Your name is " . $name . ". You were born on " . $birthday . " which means you must be " . calculateDoB($birthday) . " years old, I also see you live in " . $city . " on " . $address . " and the postcode is " . $postcode . " and that means you nationality is " . $nationality . " and finally I can see you are a " . $profession . ", well how wonderfull! And your message reads as follows: <br><br>" . $comment;
-
- } else {
-     echo "invalid birthdate please try again.";
- }
 
  function calculateDoB($birthday){
     $dob = new DateTime($birthday);

@@ -6,6 +6,6 @@ var i = document.getElementById(x.id);
     }
 
     else {
-        i.style.fontWeight = "bold";
+        i.style.fontWeight = "bold"; k.
     }
 }
