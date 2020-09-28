@@ -1,0 +1,99 @@
+/* ------------INDEX------------ */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial;
+}
+
+#index-body{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    max-height: 100vh;
+}
+
+.button-container{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-row-gap: 1em;
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.button-container>button{
+    font-size: 9vw;
+    width: 100%;
+    display: block;
+    padding: .5rem;
+    background-color: rgb(192, 0, 0);
+    border-radius: 1rem;
+    color: #FFF;
+}
+button a{
+    color: #FFF;
+    text-decoration: none;
+}
+#index-body h1{
+    text-align: center;
+}
+#index-h1-nl{
+    grid-column: 3;
+}
+/* ------------INDEX------------ */
+
+/* ------------FORM------------ */
+#form-body-eng{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: .5fr 2fr 2fr 1fr;
+    max-height: 100vh;
+}
+
+#form-body-eng .button-container{
+    grid-column: 2/4;
+    grid-row: 2/4;
+}
+
+#form-eng{
+    grid-column: 2/4;
+    grid-row: 2/4;
+    display: grid;
+    display: none;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    max-width: 100vw;
+    max-height: 100vh;
+    grid-row-gap: 1rem;
+}
+
+form h1{
+    grid-column: 1/5;
+    text-align: center;
+    font-size: 3vw;
+}
+
+input,select,textarea{
+    grid-column: 1/5;
+    font-size: 1.5vw;
+    height: 5vh;;
+    grid-auto-flow: row;
+    padding: 0.5rem;
+    color: black;
+}
+
+textarea{
+    min-height: 100px;
+}
+
+select{
+    min-height: 3rem;
+}
+
+label{
+    text-align: center;
+    grid-column: 1/5;
+    text-transform: uppercase;
+    font-size: 2vw;
+}
+/* ------------FORM------------ */
